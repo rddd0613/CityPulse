@@ -1,0 +1,33 @@
+{
+  "_note": "EXAMPLE FORMAT ONLY. Values are empty. The real file (data/city-data.json) is produced by tools/build_city_data.py.",
+  "meta": {
+    "years": [2013, 2015, 2020, 2025],
+    "epochs": { "2013": "Baseline", "2015": "Expansion", "2020": "Green Riyadh", "2025": "Present" },
+    "notes": ["Write caveats here, e.g. data sources and limitations."]
+  },
+  "cities": [
+    {
+      "name": "Riyadh",
+      "name_ar": "الرياض",
+      "summary_basis": "average of the listed neighborhoods",
+      "summary": {
+        "2013": { "ndvi": null, "lst_c": null, "built_pct": null },
+        "2025": { "ndvi": null, "lst_c": null, "built_pct": null }
+      },
+      "neighborhoods": [
+        {
+          "name": "Al Malqa",
+          "name_ar": "الملقا",
+          "2013": { "ndvi": null, "lst_c": null, "built_pct": null },
+          "2025": { "ndvi": null, "lst_c": null, "built_pct": null },
+          "vs_2025": {
+            "2013": {
+              "change": { "lst_c": null, "ndvi": null, "built_pct": null },
+              "trend": { "heat": null, "vegetation": null, "urbanization": null }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "epochs": {
+    "2013": "Baseline",
+    "2015": "Expansion",
+    "2020": "Green Riyadh",
+    "2025": "Present"
+  },
+  "cities": {
+    "Riyadh": {
+      "name_ar": "الرياض",
+      "region": [
+        46.4,
+        24.5,
+        46.9,
+        25.1
+      ],
+      "layers": {
+        "truecolor": {
+          "2013": "riyadh_2013_truecolor.png",
+          "2015": "riyadh_2015_truecolor.png",
+          "2020": "riyadh_2020_truecolor.png",
+          "2025": "riyadh_2025_truecolor.png"
+        },
+        "ndvi": {
+          "2013": "riyadh_2013_ndvi.png",
+          "2015": "riyadh_2015_ndvi.png",
+          "2020": "riyadh_2020_ndvi.png",
+          "2025": "riyadh_2025_ndvi.png"
+        },
+        "lst": {
+          "2013": "riyadh_2013_lst.png",
+          "2015": "riyadh_2015_lst.png",
+          "2020": "riyadh_2020_lst.png",
+          "2025": "riyadh_2025_lst.png"
+        }
+      }
+    },
+    "Jeddah": {
+      "name_ar": "جدة",
+      "region": [
+        39.05,
+        21.3,
+        39.35,
+        21.8
+      ],
+      "layers": {
+        "truecolor": {
+          "2013": "jeddah_2013_truecolor.png",
+          "2015": "jeddah_2015_truecolor.png",
+          "2020": "jeddah_2020_truecolor.png",
+          "2025": "jeddah_2025_truecolor.png"
+        },
+        "ndvi": {
+          "2013": "jeddah_2013_ndvi.png",
+          "2015": "jeddah_2015_ndvi.png",
+          "2020": "jeddah_2020_ndvi.png",
+          "2025": "jeddah_2025_ndvi.png"
+        },
+        "lst": {
+          "2013": "jeddah_2013_lst.png",
+          "2015": "jeddah_2015_lst.png",
+          "2020": "jeddah_2020_lst.png",
+          "2025": "jeddah_2025_lst.png"
+        }
+      }
+    },
+    "Dammam": {
+      "name_ar": "الدمام",
+      "region": [
+        49.95,
+        26.25,
+        50.3,
+        26.55
+      ],
+      "layers": {
+        "truecolor": {
+          "2013": "dammam_2013_truecolor.png",
+          "2015": "dammam_2015_truecolor.png",
+          "2020": "dammam_2020_truecolor.png",
+          "2025": "dammam_2025_truecolor.png"
+        },
+        "ndvi": {
+          "2013": "dammam_2013_ndvi.png",
+          "2015": "dammam_2015_ndvi.png",
+          "2020": "dammam_2020_ndvi.png",
+          "2025": "dammam_2025_ndvi.png"
+        },
+        "lst": {
+          "2013": "dammam_2013_lst.png",
+          "2015": "dammam_2015_lst.png",
+          "2020": "dammam_2020_lst.png",
+          "2025": "dammam_2025_lst.png"
+        }
+      }
+    }
+  }
+}
